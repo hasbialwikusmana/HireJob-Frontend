@@ -16,7 +16,7 @@ export default {
         backgroundSecondary: "#E2E5ED",
         textMain: "#1F2A36",
         textSecondary: "#9EA0A5",
-        textLight: "#FFFFFF",
+        light: "#FFFFFF",
         accent: "#FBB017",
       },
       backgroundColor: {
