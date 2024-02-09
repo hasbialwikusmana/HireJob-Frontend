@@ -10,7 +10,7 @@ export default {
       colors: {
         primary: "#5E50A1",
         secondary: "#46505C",
-        hoverPrimary: "#3E2E6B",
+        hoverPrimary: "#473c7a",
         hoverSecondary: "#9EA0A5",
         backgroundMain: "#F6F7F8",
         backgroundSecondary: "#E2E5ED",
@@ -18,6 +18,7 @@ export default {
         textSecondary: "#9EA0A5",
         light: "#FFFFFF",
         accent: "#FBB017",
+        hoverAccent: "#f4a504",
       },
       backgroundColor: {
         scroll: "#F5F5F5",
