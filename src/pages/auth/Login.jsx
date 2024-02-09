@@ -15,7 +15,7 @@ function Login() {
   };
   return (
     <>
-      <div className="h-screen px-20 pt-12">
+      <div className="h-screen md:px-20 sm:px-0 pt-12">
         <div className="flex-col md:flex md:flex-row items-center gap-16">
           <div className="w-full relative">
             <img className="bg-red absolute left-10 top-10 z-10 hidden md:block" src={Logo} width={86} height={50} alt="icon" />
@@ -27,68 +27,108 @@ function Login() {
               style={{ backgroundImage: `url(${LoginImage})` }}
             />
           </div>
-          <div className="w-full flex flex-col justify-center">
-            <h1 className="text-3xl font-medium">Halo, Pewpeople</h1>
-            <p className="text-[18px] mt-[16px] mb-[52px] text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In euismod ipsum et dui rhoncus auctor.</p>
+          <div className="w-full lg:w-full flex flex-col justify-center p-4 md:p-8">
+            <h1 className="text-3xl md:text-4xl font-medium">Halo, Pewpeople</h1>
+            <p className="text-[18px] md:text-lg mt-4 md:mt-6 mb-8 md:mb-12 text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In euismod ipsum et dui rhoncus auctor.</p>
 
             {/* Worker/Recruiter Button */}
-            <div className="flex justify-center mb-8">
-              <button onClick={handleWorkerClick} className={`px-6 py-3 ${isWorkerActive ? "bg-primary text-white" : "bg-white text-primary"} border-solid border-2 border-primary font-bold`}>
+            <div className="flex md:flex-row items-center gap-2 mb-8 md:mb-12">
+              <button
+                onClick={handleWorkerClick}
+                className={`px-6 py-3 ${isWorkerActive ? "bg-primary hover:bg-hoverPrimary text-white" : "bg-white hover:bg-hoverPrimary hover:text-white text-primary"} border-solid border-2 border-primary font-bold`}
+              >
                 Worker
               </button>
-              <button onClick={handleRecruiterClick} className={`px-6 py-3 ${isWorkerActive ? "bg-white text-primary" : "bg-primary text-white"} border-solid border-2 border-primary font-bold`}>
+              <button
+                onClick={handleRecruiterClick}
+                className={`px-6 py-3 ${isWorkerActive ? "bg-white hover:bg-hoverPrimary hover:text-white text-primary" : "bg-primary hover:bg-hoverPrimary text-white"} border-solid border-2 border-primary font-bold`}
+              >
                 Recruiter
               </button>
             </div>
 
-            {/* {errMsg ? (
-                     <div className="bg-[#f8d7da] text-[#721c24] p-4 rounded-lg w-[95%]">
-                     {errMsg}
-                 </div>
-                   ) : null} */}
-            <div className="flex flex-col gap-8 mb-[24px]">
-              <div>
-                <label htmlFor="email" className="block text-sm text-gray-400">
-                  Email
-                </label>
-                <input
-                  type="text"
-                  id="email"
-                  name="email"
-                  placeholder="Masukkan Alamat Email"
-                  className="w-full border-2 p-3"
-                  // onChange={(e) => setEmail(e.target.value)}
-                />
+            {isWorkerActive ? (
+              // Worker Form
+              <div className="flex h-[40vh] flex-col gap-8 md:gap-8 mb-8 md:mb-12">
+                <div>
+                  <label htmlFor="email" className="block text-sm text-gray-400">
+                    Email
+                  </label>
+                  <input
+                    type="text"
+                    id="email"
+                    name="email"
+                    placeholder="Masukkan Alamat Email"
+                    className="w-full border-2 p-3 outline-primary"
+                    // onChange={(e) => setEmail(e.target.value)}
+                  />
+                </div>
+                <div>
+                  <label htmlFor="password" className="block text-sm text-gray-400">
+                    Password
+                  </label>
+                  <input
+                    type="password"
+                    id="password"
+                    name="password"
+                    placeholder="Masukkan Password"
+                    className="w-full border-2 p-3 outline-primary"
+                    // onChange={(e) => setPassword(e.target.value)}
+                  />
+                </div>
+                <div>
+                  <button className="place-self-end mb-2 md:mb-5">Lupa Kata Sandi?</button>
+                  <button className=" w-full border-2 p-3 rounded-md bg-accent hover:bg-hoverAccent font-bold text-white mb-10 ">Masuk</button>
+                  <p className="text-center">
+                    Anda belum punya akun?{" "}
+                    <Link to="/auth/register" className="text-[#FBB017]">
+                      Daftar disini
+                    </Link>
+                  </p>
+                </div>
               </div>
-              <div>
-                <label htmlFor="password" className="block text-sm text-gray-400">
-                  Password
-                </label>
-                <input
-                  type="password"
-                  id="password"
-                  name="password"
-                  placeholder="Masukkan Password"
-                  className="w-full border-2 p-3"
-                  // onChange={(e) => setPassword(e.target.value)}
-                />
+            ) : (
+              // Recruiter Form
+              <div className="flex h-[40vh] flex-col gap-8 md:gap-8 mb-8 md:mb-12">
+                <div>
+                  <label htmlFor="email" className="block text-sm text-gray-400">
+                    Email
+                  </label>
+                  <input
+                    type="text"
+                    id="email"
+                    name="email"
+                    placeholder="Masukkan Alamat Email"
+                    className="w-full border-2 p-3 outline-primary"
+                    // onChange={(e) => setEmail(e.target.value)}
+                  />
+                </div>
+                <div>
+                  <label htmlFor="password" className="block text-sm text-gray-400">
+                    Password
+                  </label>
+                  <input
+                    type="password"
+                    id="password"
+                    name="password"
+                    placeholder="Masukkan Password"
+                    className="w-full border-2 p-3 outline-primary"
+                    // onChange={(e) => setPassword(e.target.value)}
+                  />
+                </div>
+
+                <div>
+                  <button className="place-self-end mb-2 md:mb-5">Lupa Kata Sandi?</button>
+                  <button className=" w-full border-2 p-3 rounded-md bg-[#FBB017] font-bold text-white mb-10 ">Masuk</button>
+                  <p className="text-center">
+                    Anda belum punya akun?{" "}
+                    <Link to="/auth/register" className="text-[#FBB017]">
+                      Daftar disini
+                    </Link>
+                  </p>
+                </div>
               </div>
-            </div>
-            <button className="place-self-end mb-[24px]">Lupa Kata Sandi?</button>
-            <button
-              // onClick={handleLogin}
-              // disabled={isLoading}
-              className="p-3 rounded-md bg-[#FBB017] font-bold text-white mb-[28px]"
-            >
-              {/* {isLoading ? "Loading..." : "Masuk"} */}
-              Masuk
-            </button>
-            <p className="text-center">
-              Anda belum punya akun?{" "}
-              <Link to="/auth/register" className="text-[#FBB017]">
-                Daftar disini
-              </Link>
-            </p>
+            )}
           </div>
         </div>
       </div>
