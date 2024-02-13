@@ -19,8 +19,11 @@ function Register() {
         <div className="flex-col md:flex md:flex-row items-center gap-16">
           <div className="w-full relative">
             <img className="bg-red absolute left-10 top-10 z-10 hidden md:block" src={Logo} width={86} height={50} alt="icon" />
-            <div className="flex justify-center relative">
-              <h1 className="absolute left-10 top-60 text-5xl text-white font-medium z-10 hidden md:block">Temukan developer berbakat & terbaik di berbagai bidang keahlian</h1>
+            <div className="flex justify-center items-center relative text-left">
+              <h1 className="absolute left-10 top-60 text-5xl text-white font-[700] z-10 hidden md:block">
+                Temukan developer berbakat & terbaik <br />
+                di berbagai bidang keahlian
+              </h1>
             </div>
             <div
               className='before:content-[" "] before:absolute before:inset-0 before:block relative hidden md:block before:opacity-75 before:bg-[#5E50A1] bg-blue-900 bg-cover bg-no-repeat bg-center h-[90vh]'
