@@ -2,9 +2,42 @@ import { Link } from "react-router-dom";
 import Logo from "../../assets/img/logo/logo-putih.svg";
 import LoginImage from "../../assets/img/login/objek.png";
 import { useState } from "react";
+import AuthServices from "../../services/auth";
 
 function Register() {
   const [isWorkerActive, setWorkerActive] = useState(true);
+
+  const [dataRegister, setDataRegister] = useState({
+    email: "",
+    name: "",
+    company_name: "",
+    company_field: "",
+    nohp: "",
+    password: "",
+    confirmPassword: "",
+  });
+
+  const handleChange = (e) => {
+    setDataRegister({ ...dataRegister, [e.target.name]: e.target.value });
+  };
+
+  const handleRegisterWorker = async (e) => {
+    e.preventDefault();
+    try {
+      await AuthServices.registerWorker(dataRegister);
+    } catch (error) {
+      console.log(error);
+    }
+  };
+
+  const handleRegisterRecruiter = async (e) => {
+    e.preventDefault();
+    try {
+      await AuthServices.registerRecruiter(dataRegister);
+    } catch (error) {
+      console.log(error);
+    }
+  };
 
   const handleWorkerClick = () => {
     setWorkerActive(true);
@@ -52,7 +85,7 @@ function Register() {
 
             {isWorkerActive ? (
               // Worker Form
-              <div className="flex h-[40vh] flex-col gap-8 md:gap-8 mb-8 md:mb-12">
+              <form onSubmit={handleChange} className="flex h-[40vh] flex-col gap-8 md:gap-8 mb-8 md:mb-12">
                 <div>
                   <label htmlFor="email" className="block text-sm text-gray-400">
                     Email
@@ -63,7 +96,8 @@ function Register() {
                     name="email"
                     placeholder="Masukkan Alamat Email"
                     className="w-full border-2 p-3 outline-primary"
-                    // onChange={(e) => setEmail(e.target.value)}
+                    value={dataRegister.email}
+                    onChange={(e) => setDataRegister({ ...dataRegister, email: e.target.value })}
                   />
                 </div>
                 <div>
@@ -76,7 +110,8 @@ function Register() {
                     name="fullname"
                     placeholder="Masukkan Nama Lengkap"
                     className="w-full border-2 p-3 outline-primary"
-                    // onChange={(e) => setFullname(e.target.value)}
+                    value={dataRegister.name}
+                    onChange={(e) => setDataRegister({ ...dataRegister, name: e.target.value })}
                   />
                 </div>
 
@@ -90,7 +125,8 @@ function Register() {
                     name="nohp"
                     placeholder="Masukkan no handphone"
                     className="w-full border-2 p-3 outline-primary"
-                    // onChange={(e) => setPhoneNumber(e.target.value)}
+                    value={dataRegister.nohp}
+                    onChange={(e) => setDataRegister({ ...dataRegister, nohp: e.target.value })}
                   />
                 </div>
                 <div>
@@ -103,18 +139,29 @@ function Register() {
                     name="password"
                     placeholder="Masukkan Password"
                     className="w-full border-2 p-3 outline-primary"
-                    // onChange={(e) => setPassword(e.target.value)}
+                    value={dataRegister.password}
+                    onChange={(e) => setDataRegister({ ...dataRegister, password: e.target.value })}
                   />
                 </div>
                 <div>
                   <label htmlFor="confirmPassword" className="block text-sm text-gray-400">
                     Konfirmasi Password
                   </label>
-                  <input type="password" id="confirmPassword" name="confirmPassword" placeholder="Konfirmasi Password" className="w-full border-2 p-3 outline-primary" />
+                  <input
+                    type="password"
+                    id="confirmPassword"
+                    name="confirmPassword"
+                    placeholder="Konfirmasi Password"
+                    className="w-full border-2 p-3 outline-primary"
+                    value={dataRegister.confirmPassword}
+                    onChange={(e) => setDataRegister({ ...dataRegister, confirmPassword: e.target.value })}
+                  />
                 </div>
 
                 <div>
-                  <button className=" w-full border-2 p-3 outline-primary rounded-md bg-[#FBB017] font-bold text-white mb-10 ">Daftar</button>
+                  <button type="submit" onClick={handleRegisterWorker} className=" w-full border-2 p-3 outline-primary rounded-md bg-[#FBB017] font-bold text-white mb-10 ">
+                    Daftar
+                  </button>
 
                   <p className="text-center mb-10">
                     Anda sudah punya akun?{" "}
@@ -123,10 +170,10 @@ function Register() {
                     </Link>
                   </p>
                 </div>
-              </div>
+              </form>
             ) : (
               // Recruiter Form
-              <div className="flex h-[40vh] flex-col gap-8 md:gap-8 mb-8 md:mb-12">
+              <form onSubmit={handleChange} className="flex h-[40vh] flex-col gap-8 md:gap-8 mb-8 md:mb-12">
                 <div>
                   <label htmlFor="email" className="block text-sm text-gray-400">
                     Email
@@ -137,7 +184,8 @@ function Register() {
                     name="email"
                     placeholder="Masukkan Alamat Email"
                     className="w-full border-2 p-3 outline-primary"
-                    // onChange={(e) => setEmail(e.target.value)}
+                    value={dataRegister.email}
+                    onChange={(e) => setDataRegister({ ...dataRegister, email: e.target.value })}
                   />
                 </div>
                 <div>
@@ -150,7 +198,8 @@ function Register() {
                     name="fullname"
                     placeholder="Masukkan Nama Lengkap"
                     className="w-full border-2 p-3 outline-primary"
-                    // onChange={(e) => setFullname(e.target.value)}
+                    value={dataRegister.name}
+                    onChange={(e) => setDataRegister({ ...dataRegister, name: e.target.value })}
                   />
                 </div>
                 <div>
@@ -163,7 +212,8 @@ function Register() {
                     name="perusahaan"
                     placeholder="Masukkan Nama Perusahaan"
                     className="w-full border-2 p-3 outline-primary"
-                    // onChange={(e) => setCompany(e.target.value)}
+                    value={dataRegister.company_name}
+                    onChange={(e) => setDataRegister({ ...dataRegister, company_name: e.target.value })}
                   />
                 </div>
                 <div>
@@ -176,7 +226,8 @@ function Register() {
                     name="jabatan"
                     placeholder="Posisi di perusahaan anda"
                     className="w-full border-2 p-3 outline-primary"
-                    // onChange={(e) => setJobTitle(e.target.value)}
+                    value={dataRegister.company_field}
+                    onChange={(e) => setDataRegister({ ...dataRegister, company_field: e.target.value })}
                   />
                 </div>
                 <div>
@@ -189,7 +240,8 @@ function Register() {
                     name="nohp"
                     placeholder="Masukkan no handphone"
                     className="w-full border-2 p-3 outline-primary"
-                    // onChange={(e) => setPhoneNumber(e.target.value)}
+                    value={dataRegister.nohp}
+                    onChange={(e) => setDataRegister({ ...dataRegister, nohp: e.target.value })}
                   />
                 </div>
                 <div>
@@ -202,18 +254,29 @@ function Register() {
                     name="password"
                     placeholder="Masukkan Password"
                     className="w-full border-2 p-3 outline-primary"
-                    // onChange={(e) => setPassword(e.target.value)}
+                    value={dataRegister.password}
+                    onChange={(e) => setDataRegister({ ...dataRegister, password: e.target.value })}
                   />
                 </div>
                 <div>
                   <label htmlFor="confirmPassword" className="block text-sm text-gray-400">
                     Konfirmasi Password
                   </label>
-                  <input type="password" id="confirmPassword" name="confirmPassword" placeholder="Konfirmasi Password" className="w-full border-2 p-3 outline-primary" />
+                  <input
+                    type="password"
+                    id="confirmPassword"
+                    name="confirmPassword"
+                    placeholder="Konfirmasi Password"
+                    className="w-full border-2 p-3 outline-primary"
+                    value={dataRegister.confirmPassword}
+                    onChange={(e) => setDataRegister({ ...dataRegister, confirmPassword: e.target.value })}
+                  />
                 </div>
 
                 <div>
-                  <button className=" w-full border-2 p-3 outline-primary rounded-md bg-accent hover:bg-hoverAccent font-bold text-white mb-10 ">Daftar</button>
+                  <button type="submit" onClick={handleRegisterRecruiter} className=" w-full border-2 p-3 outline-primary rounded-md bg-accent hover:bg-hoverAccent font-bold text-white mb-10 ">
+                    Daftar
+                  </button>
 
                   <p className="text-center mb-10">
                     Anda sudah punya akun?{" "}
@@ -222,7 +285,7 @@ function Register() {
                     </Link>
                   </p>
                 </div>
-              </div>
+              </form>
             )}
 
             {/* <div className="flex h-[40vh] flex-col gap-8 ">
