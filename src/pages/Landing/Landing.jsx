@@ -1,6 +1,4 @@
 import { Link } from "react-router-dom";
-import Navbar from "../../components/Navbar";
-import Footer from "../../components/Footer";
 import Hero1 from "../../assets/img/home/1.svg";
 import Hero2 from "../../assets/img/home/2.svg";
 import Hero3 from "../../assets/img/home/3.svg";
@@ -8,14 +6,61 @@ import Testimoni1 from "../../assets/img/testimoni/1.png";
 import Testimoni2 from "../../assets/img/testimoni/2.png";
 import Testimoni3 from "../../assets/img/testimoni/3.png";
 import { FaCheckCircle } from "react-icons/fa";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+
+// eslint-disable-next-line react/prop-types
+function Arrow({ className, style, onClick }) {
+  return (
+    <div
+      className={className}
+      style={{
+        ...style,
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+        cursor: "pointer",
+        width: "40px",
+        height: "40px",
+        borderRadius: "50%",
+        background: "#5E50A1",
+      }}
+      onClick={onClick}
+    ></div>
+  );
+}
 
 function Home() {
+  var settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    nextArrow: <Arrow />,
+    prevArrow: <Arrow />,
+    initialSlide: 0,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 2,
+        },
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 1,
+        },
+      },
+    ],
+  };
+
   return (
     <>
-      <Navbar />
-
       {/* Section 1 */}
-      <section className="container mx-auto text-center md:text-left flex flex-col md:flex md:flex-row justify-around items-center mt-10">
+      <section className="container w-5/6 mx-auto text-center md:text-left flex flex-col md:flex md:flex-row justify-around items-center mt-10">
         <div>
           <h1 className="text-4xl font-bold md:text-6xl">
             Talenta terbaik negri <br /> untuk perubahan <br /> revolusi 4.0
@@ -34,7 +79,7 @@ function Home() {
       </section>
 
       {/* Section 2 */}
-      <section className="container mx-auto md:text-left flex flex-col md:flex md:flex-row justify-around items-center mt-10">
+      <section className="container w-5/6 mx-auto md:text-left flex flex-col md:flex md:flex-row justify-around items-center mt-10">
         <div>
           <img src={Hero2} width={600} height={600} alt="hero-image" />
         </div>
@@ -54,7 +99,7 @@ function Home() {
       </section>
 
       {/* Section 3 */}
-      <section className="container mx-auto text-center md:text-left flex flex-col md:flex md:flex-row justify-around items-center mt-10 p-5">
+      <section className="container w-5/6 mx-auto text-center md:text-left flex flex-col md:flex md:flex-row justify-around items-center mt-10 p-5">
         <div>
           <h1 className="text-4xl mb-5">Skill Tallent</h1>
           <p className="text-lg text-center md:text-start mb-5">
@@ -85,42 +130,48 @@ function Home() {
       </section>
 
       {/* Section 4 */}
-      <section className=" bg-gray-100 py-16">
-        <div className="container mx-auto text-center">
+      <section className="bg-[#f6f7f8] py-16">
+        <div className="container w-5/6 mx-auto text-center">
           <h2 className="font-semibold text-4xl mb-20 text-textMain">Their Opinion About Peworld</h2>
-          <div className="grid grid-cols-1 md:grid-cols-3   gap-8 mx-auto">
-            {/* Testimonial Item 1 */}
-            <div className="bg-white p-6 rounded-md shadow-md">
-              {/* image */}
-              <img src={Testimoni1} width={100} height={100} className="rounded-full mx-auto mb-4" alt="hero-image" />
-              {/* nama */}
-              <p className="text-textMain font-bold text-2xl mb-2">Harry Styles</p>
-              {/* kerjaan */}
-              <p className="text-gray-600 text-lg mb-4">Web Developer</p>
-              {/* testimoni */}
-              <p className="text-gray-600 text-lg mb-0 leading-7">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In euismod ipsum et dui rhoncus auctor.</p>
-            </div>
+          <div className="relative">
+            <Slider {...settings}>
+              {/* Testimonial Item 1 */}
+              <div className="p-4">
+                <div className="bg-white p-6 rounded-md shadow-md">
+                  <img src={Testimoni1} width={100} height={100} className="rounded-full mx-auto mb-4 border-4 border-amber-400 border-opacity-40" alt="hero-image" />
+                  <p className="text-textMain font-bold text-2xl mb-2">Harry Styles</p>
+                  {/* kerjaan */}
+                  <p className="text-gray-600 text-lg mb-4">Web Developer</p>
+                  {/* testimoni */}
+                  <p className="text-gray-600 text-lg mb-0 leading-7">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+              </div>
 
-            {/* Testimonial Item 2 */}
-            <div className="bg-white p-6 rounded-md shadow-md">
-              <img src={Testimoni2} width={100} height={100} className="rounded-full mx-auto mb-4" alt="hero-image" />
-              <p className="text-textMain font-bold text-2xl mb-2">Niall Horan</p>
-              {/* kerjaan */}
-              <p className="text-gray-600 text-lg mb-4">Web Developer</p>
-              {/* testimoni */}
-              <p className="text-gray-600 text-lg mb-0 leading-7">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            </div>
+              {/* Testimonial Item 2 */}
+              <div className="p-4">
+                <div className="bg-white p-6 rounded-md shadow-md">
+                  <img src={Testimoni2} width={100} height={100} className="rounded-full mx-auto mb-4 border-4 border-amber-400 border-opacity-40" alt="hero-image" />
+                  <p className="text-textMain font-bold text-2xl mb-2">Niall Horan</p>
+                  {/* kerjaan */}
+                  <p className="text-gray-600 text-lg mb-4">Web Developer</p>
+                  {/* testimoni */}
+                  <p className="text-gray-600 text-lg mb-0 leading-7">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+              </div>
 
-            {/* Testimonial Item 3 */}
-            <div className="bg-white p-6 rounded-md shadow-md">
-              <img src={Testimoni3} width={100} height={100} className="rounded-full mx-auto mb-4" alt="hero-image" />
-              {/* nama */}
-              <p className="text-textMain font-bold text-2xl mb-2">Louis Tomlinson</p>
-              {/* kerjaan */}
-              <p className="text-gray-600 text-lg mb-4">Web Developer</p>
-              {/* testimoni */}
-              <p className="text-gray-600 text-lg mb-0 leading-7">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            </div>
+              {/* Testimonial Item 3 */}
+              <div className="p-4">
+                <div className="bg-white p-6 rounded-md shadow-md">
+                  <img src={Testimoni3} width={100} height={100} className="rounded-full mx-auto mb-4 border-4 border-amber-400 border-opacity-40" alt="hero-image" />
+                  {/* nama */}
+                  <p className="text-textMain font-bold text-2xl mb-2">Louis Tomlinson</p>
+                  {/* kerjaan */}
+                  <p className="text-gray-600 text-lg mb-4">Web Developer</p>
+                  {/* testimoni */}
+                  <p className="text-gray-600 text-lg mb-0 leading-7">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+              </div>
+            </Slider>
           </div>
         </div>
       </section>
@@ -138,8 +189,6 @@ function Home() {
           </Link>
         </div>
       </section>
-      {/* Footer */}
-      <Footer />
     </>
   );
 }
