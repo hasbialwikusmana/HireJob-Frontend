@@ -151,6 +151,14 @@ function NavbarUtama() {
                     </Link>
                   </li>
 
+                  {/* Hire */}
+
+                  <li className="group">
+                    <Link to={hire()} className="flex items-center py-3 px-6 cursor-pointer text-light hover:text-accent">
+                      Hire
+                    </Link>
+                  </li>
+
                   <li className="group">
                     <div onClick={handleLogout} className="flex items-center py-3 px-6 cursor-pointer text-light hover:text-accent">
                       Logout
