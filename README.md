@@ -4,7 +4,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/hasbialwikusmana/HireJob-Frontend">
-    <img src="https://github.com/user-attachments/assets/00895a1a-8b64-4694-9f3b-7df6bbc28ba1" alt="Logo" width="400px">
+    <img src="https://github.com/user-attachments/assets/00895a1a-8b64-4694-9f3b-7df6bbc28ba1" alt="Logo" width="100%">
   </a>
 
   <h3 align="center">Hire Job</h3>
