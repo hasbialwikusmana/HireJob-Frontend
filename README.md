@@ -119,10 +119,10 @@ VITE_API_URL = "" # Please fill with your API URL
 
   <!-- Row 3 -->
   <tr>
-    <td width="50%">
+    <td width="50%" style="vertical-align: top;">
       <img src="https://github.com/user-attachments/assets/8e4ab868-dc2f-4db7-9b5c-26a731a616e5" alt="Register Worker Page" width="100%">
     </td>
-    <td width="50%">
+    <td width="50%" style="vertical-align: top;">
       <img src="https://github.com/user-attachments/assets/25c133f7-0875-4c70-9d6d-0fd687e7acb6" alt="Register Recruiter Page" width="100%">
     </td>
   </tr>
@@ -158,10 +158,10 @@ VITE_API_URL = "" # Please fill with your API URL
   <!-- Row 6 -->
   <tr>
     <td width="50%" style="vertical-align: top;">
-      <img src="https://github.com/user-attachments/assets/859bdd3a-61dc-4f19-8522-3e7e55c29ce4" alt="Detail Worker Page" style="width: 100%; height: auto;">
+      <img src="https://github.com/user-attachments/assets/859bdd3a-61dc-4f19-8522-3e7e55c29ce4" alt="Detail Worker Page" style="width: 100%;">
     </td>
     <td width="50%" style="vertical-align: top;">
-      <img src="https://github.com/user-attachments/assets/e3f77206-9d61-4396-b6ea-ebed005b9e51" alt="Edit Profile Worker Page" style="width: 100%; height: auto;">
+      <img src="https://github.com/user-attachments/assets/e3f77206-9d61-4396-b6ea-ebed005b9e51" alt="Edit Profile Worker Page" style="width: 100%;">
     </td>
   </tr>
   <tr>
