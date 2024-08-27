@@ -92,7 +92,7 @@ VITE_API_URL = "" # Please fill with your API URL
 
 <p align="center" style="display: flex; flex-direction: column; align-items: center;">
 
-<table>
+<table width="100%" style="table-layout: auto;">
   <!-- Row 1 -->
   <tr>
     <td width="50%">
