@@ -95,10 +95,10 @@ VITE_API_URL = "" # Please fill with your API URL
 <table width="100%" style="table-layout: auto;">
   <!-- Row 1 -->
   <tr>
-    <td width="50%">
+    <td width="50%" style="vertical-align: top;">
       <img src="https://github.com/user-attachments/assets/d9f859ce-e66c-46fb-ae4b-916b140ab14a" alt="Landing Page" width="100%">
     </td>
-    <td width="50%">
+    <td width="50%" style="vertical-align: top;">
       <img src="https://github.com/user-attachments/assets/1d52a083-735f-488c-ac4d-0f6875a0dca4" alt="Landing Page After Login" width="100%">
     </td>
   </tr>
@@ -120,10 +120,10 @@ VITE_API_URL = "" # Please fill with your API URL
   <!-- Row 3 -->
   <tr>
     <td width="50%" style="vertical-align: top;">
-      <img src="https://github.com/user-attachments/assets/8e4ab868-dc2f-4db7-9b5c-26a731a616e5" alt="Register Worker Page" width="100%" height: auto;>
+      <img src="https://github.com/user-attachments/assets/8e4ab868-dc2f-4db7-9b5c-26a731a616e5" alt="Register Worker Page" width="100%">
     </td>
     <td width="50%" style="vertical-align: top;">
-      <img src="https://github.com/user-attachments/assets/25c133f7-0875-4c70-9d6d-0fd687e7acb6" alt="Register Recruiter Page" width="100%" height: auto;>
+      <img src="https://github.com/user-attachments/assets/25c133f7-0875-4c70-9d6d-0fd687e7acb6" alt="Register Recruiter Page" width="100%">
     </td>
   </tr>
   <tr>
@@ -143,10 +143,10 @@ VITE_API_URL = "" # Please fill with your API URL
 
   <!-- Row 5 -->
   <tr>
-    <td width="50%">
+    <td width="50%" style="vertical-align: top;">
       <img src="https://github.com/user-attachments/assets/859bdd3a-61dc-4f19-8522-3e7e55c29ce4" alt="Profile Worker - Portofolio Page" width="100%">
     </td>
-    <td width="50%">
+    <td width="50%" style="vertical-align: top;">
       <img src="https://github.com/user-attachments/assets/0cdf432b-45ae-444c-a5ce-c778bafa3ac6" alt="Profile Worker - Experience Page" width="100%">
     </td>
   </tr>
@@ -155,43 +155,33 @@ VITE_API_URL = "" # Please fill with your API URL
     <td align="center" style="padding: 10px 0;"><strong>Profile Worker - Experience Page</strong></td>
   </tr>
 
- <!-- Row 6 - Detail Worker Page -->
-<tr>
-  <td width="100%" style="vertical-align: top;">
-    <img src="https://github.com/user-attachments/assets/859bdd3a-61dc-4f19-8522-3e7e55c29ce4" alt="Detail Worker Page" style="width: 100%; height: auto;">
-  </td>
-</tr>
-<tr>
-  <td align="center" style="padding: 10px 0;"><strong>Detail Worker Page</strong></td>
-</tr>
-
-<!-- Row 7 - Edit Profile Worker Page -->
-<tr>
-  <td width="100%" style="vertical-align: top;">
-    <img src="https://github.com/user-attachments/assets/e3f77206-9d61-4396-b6ea-ebed005b9e51" alt="Edit Profile Worker Page" style="width: 100%; height: auto;">
-  </td>
-</tr>
-<tr>
-  <td align="center" style="padding: 10px 0;"><strong>Edit Profile Worker Page</strong></td>
-</tr>
-
-  <!-- Row 7 -->
+  <!-- Row 6 - Detail Worker Page -->
   <tr>
     <td colspan="2">
-      <img src="https://github.com/user-attachments/assets/d699dfc1-6b2e-43a1-b2d9-f9847a6f5d7d" alt="Profile Recruiter Page" width="100%">
+      <img src="https://github.com/user-attachments/assets/859bdd3a-61dc-4f19-8522-3e7e55c29ce4" alt="Detail Worker Page" width="100%">
     </td>
   </tr>
   <tr>
-    <td colspan="2" align="center" style="padding: 10px 0;"><strong>Profile Recruiter Page</strong></td>
+    <td colspan="2" align="center" style="padding: 10px 0;"><strong>Detail Worker Page</strong></td>
+  </tr>
+
+  <!-- Row 7 - Edit Profile Worker Page -->
+  <tr>
+    <td colspan="2">
+      <img src="https://github.com/user-attachments/assets/e3f77206-9d61-4396-b6ea-ebed005b9e51" alt="Edit Profile Worker Page" width="100%">
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center" style="padding: 10px 0;"><strong>Edit Profile Worker Page</strong></td>
   </tr>
 
   <!-- Row 8 -->
   <tr>
     <td width="50%" style="vertical-align: top;">
-      <img src="https://github.com/user-attachments/assets/73d2fc56-4ade-42ad-b30c-a6b7015b90b5" alt="Edit Profile Recruiter Page" width="100%" height: auto;>
+      <img src="https://github.com/user-attachments/assets/73d2fc56-4ade-42ad-b30c-a6b7015b90b5" alt="Edit Profile Recruiter Page" width="100%">
     </td>
     <td width="50%" style="vertical-align: top;">
-      <img src="https://github.com/user-attachments/assets/3bd6804f-4b6b-4db4-85f2-e03c58ae3dfa" alt="Hire Page" width="100%" height: auto;>
+      <img src="https://github.com/user-attachments/assets/3bd6804f-4b6b-4db4-85f2-e03c58ae3dfa" alt="Hire Page" width="100%">
     </td>
   </tr>
   <tr>
