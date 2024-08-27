@@ -2,22 +2,18 @@
 
 <!-- PROJECT LOGO -->
 <br />
-<div align="center" style="background-color: #f0f0f0; padding: 20px; border-radius: 10px;">
+<div align="center">
   <a href="https://github.com/hasbialwikusmana/HireJob-Frontend">
-    <img src="https://github.com/user-attachments/assets/00895a1a-8b64-4694-9f3b-7df6bbc28ba1" alt="Hire Job Logo" width="50%" style="border-radius: 10px; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);">
+    <img src="https://github.com/user-attachments/assets/00895a1a-8b64-4694-9f3b-7df6bbc28ba1" alt="Logo" width="100%">
   </a>
 
-  <h1 align="center" style="color: #333333; font-family: Arial, sans-serif; margin-top: 20px;">
-    Hire Job
-  </h1>
+  <h3 align="center">Hire Job</h3>
 
-  <p align="center" style="color: #555555; font-size: 18px; max-width: 600px; margin: 20px auto; line-height: 1.5;">
-    Find talented & best developers in various fields. Whether you need a full-stack developer, a UI/UX designer, or a data scientist, we've got you covered.
+  <p align="center">
+    Find talented & best developers in various fields.
+    <br />
+    <a href="https://peworldapp.netlify.app/">View Demo</a>
   </p>
-
-  <a href="https://peworldapp.netlify.app/" style="background-color: #007bff; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; font-size: 18px;">
-    View Demo
-  </a>
 </div>
 
 <!-- ABOUT THE PROJECT -->
@@ -92,13 +88,14 @@ VITE_API_URL = "" # Please fill with your API URL
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-<!-- ## Screenshoots
+## Screenshoots
+
 <p align="center" display=flex>
 
 <table>
  <tr>
-    <td><image src="https://lh3.googleusercontent.com/d/1tzS8NBQtMGku6cXficIW5wQClduek1KQ" alt="Landing Page" width=100%></td>
-    <td><image src="https://lh3.googleusercontent.com/d/1vALeDMD_fNkAKQqqqRuFDHt11nGbSBh6" alt="Landing Page After Login" width=100%/></td>
+    <td><image src="https://github.com/user-attachments/assets/d9f859ce-e66c-46fb-ae4b-916b140ab14a" alt="Landing Page" width=100%></td>
+    <td><image src="https://github.com/user-attachments/assets/1d52a083-735f-488c-ac4d-0f6875a0dca4" alt="Landing Page After Login" width=100%/></td>
   </tr>
    <tr>
     <td>Landing Page</td>
@@ -106,17 +103,15 @@ VITE_API_URL = "" # Please fill with your API URL
   </tr>
 
   <tr>
-    <td><image src="https://lh3.googleusercontent.com/d/1oag1KBgj-fQAzsmwjvNPCOELoqAeXbEO" alt="Login Page" width=100%></td>
-    <td><image src="https://lh3.googleusercontent.com/d/17yeQqw408hiDDOyFZq17Fw3ovnswsQ7D" alt="Forgot Password Page" width=100%/></td>
+    <td><image src="https://github.com/user-attachments/assets/ddc3df80-d957-4c44-a5d0-279d1132cdc5" alt="Login Page" width=100%></td>
   </tr>
    <tr>
     <td>Login Page</td>
-    <td>Forgot Password Page</td>
   </tr>
 
   <tr>
-    <td><image src="https://lh3.googleusercontent.com/d/1nshaEdAJsPJUPJ4uR1bmM_275Rrf6zlb" alt="Register Worker Page" width=100%></td>
-    <td><image src="https://lh3.googleusercontent.com/d/1ovMJdHmSF2b1MfGMEbXM22YbyJhF1305" alt="Register Recruiter Page" width=100%/></td>
+    <td><image src="https://github.com/user-attachments/assets/8e4ab868-dc2f-4db7-9b5c-26a731a616e5" alt="Register Worker Page" width=100%></td>
+    <td><image src="https://github.com/user-attachments/assets/25c133f7-0875-4c70-9d6d-0fd687e7acb6" alt="Register Recruiter Page" width=100%/></td>
   </tr>
    <tr>
     <td>Register Worker Page</td>
@@ -124,26 +119,15 @@ VITE_API_URL = "" # Please fill with your API URL
   </tr>
 
   <tr>
-    <td><image src="https://lh3.googleusercontent.com/d/1Rv3GPrjZCZkgf7jJkXTUo7Rq21qT0RWF" alt="Reset Password Page" width=100%/></td>
-    <td><image src="https://lh3.googleusercontent.com/d/1faiv7WfqKLpWx4fT67ITpTqhg0AGIvma" alt="Send Message" width=100%></td>
-  </tr>
-  <tr>
-    <td>Reset Password Page</td>
-    <td>Send Message</td>
-  </tr>
-
-  <tr>
-    <td><image src="https://lh3.googleusercontent.com/d/1xa6v3_KTTxLq9yENUX5FQ0dDfexhLHhT" alt="List Worker Page" width=100%/></td>
-    <td><image src="https://lh3.googleusercontent.com/d/1uaE7J2Chz_sd0C546eiUzeiqfZk9KV35" alt="List Recruiter Page" width=100%></td>
+    <td><image src="https://github.com/user-attachments/assets/32190ae4-b3f4-4c78-a520-db77aa1a6ada" alt="List Worker Page" width=100%/></td>
   </tr>
   <tr>
     <td>List Worker Page</td>
-    <td>List Recruiter Page</td>
   </tr>
 
   <tr>
-    <td><image src="https://lh3.googleusercontent.com/d/1rAB9MAE1YXduQR54z2GV4-LIUjULrlHt" alt="Profile Worker - Portofolio Page" width=100%/></td>
-    <td><image src="https://lh3.googleusercontent.com/d/1kK97he_sI5VXQu386PCdWMa5mIOMrJof" alt="Profile Worker - Experience Page" width=100%></td>
+    <td><image src="https://github.com/user-attachments/assets/859bdd3a-61dc-4f19-8522-3e7e55c29ce4" alt="Profile Worker - Portofolio Page" width=100%/></td>
+    <td><image src="https://github.com/user-attachments/assets/0cdf432b-45ae-444c-a5ce-c778bafa3ac6" alt="Profile Worker - Experience Page" width=100%></td>
   </tr>
   <tr>
     <td>Profile Worker - Portofolio Page</td>
@@ -151,8 +135,8 @@ VITE_API_URL = "" # Please fill with your API URL
   </tr>
 
   <tr>
-    <td><image src="https://lh3.googleusercontent.com/d/10QlGAEHAQKd7uUjGX7PdEgahAIWdDgEx" alt="Detail Worker Page" width=100%/></td>
-    <td><image src="https://lh3.googleusercontent.com/d/1Lg2xtIj-Bw66hfeiw43UkXWWE-Yl8Suf" alt="Edit Profile Worker Page" width=100%></td>
+    <td><image src="https://github.com/user-attachments/assets/859bdd3a-61dc-4f19-8522-3e7e55c29ce4" alt="Detail Worker Page" width=100%/></td>
+    <td><image src="https://github.com/user-attachments/assets/e3f77206-9d61-4396-b6ea-ebed005b9e51" alt="Edit Profile Worker Page" width=100%></td>
   </tr>
   <tr>
     <td>Detail Worker Page</td>
@@ -160,17 +144,16 @@ VITE_API_URL = "" # Please fill with your API URL
   </tr>
 
   <tr>
-    <td><image src="https://lh3.googleusercontent.com/d/1JC4ey8k86NJ7y6yigBRWV85ca5rZguBh" alt="Profile Recruiter Page" width=100%/></td>
-    <td><image src="https://lh3.googleusercontent.com/d/1_TUFkzjW2SdQOuUdzPFi1yfNus2fdgqX" alt="Detail Recruiter Page" width=100%></td>
+    <td><image src="https://github.com/user-attachments/assets/d699dfc1-6b2e-43a1-b2d9-f9847a6f5d7d" alt="Profile Recruiter Page" width=100%/></td>
+
   </tr>
   <tr>
     <td>Profile Recruiter Page</td>
-    <td>Detail Recruiter Page</td>
   </tr>
 
   <tr>
-    <td><image src="https://lh3.googleusercontent.com/d/11rAYOaeWBScl3H8V7zIfIHMwtyWcwBhr" alt="Edit Profile Recruiter Page" width=100%/></td>
-    <td><image src="https://lh3.googleusercontent.com/d/1f_AUAzw2cVNNIp7EZ27snqve0ze1udI7" alt="Hire Page" width=100%></td>
+    <td><image src="https://github.com/user-attachments/assets/73d2fc56-4ade-42ad-b30c-a6b7015b90b5" alt="Edit Profile Recruiter Page" width=100%/></td>
+    <td><image src="https://github.com/user-attachments/assets/3bd6804f-4b6b-4db4-85f2-e03c58ae3dfa" alt="Hire Page" width=100%></td>
   </tr>
   <tr>
     <td>Edit Profile Recruiter Page</td>
@@ -181,7 +164,7 @@ VITE_API_URL = "" # Please fill with your API URL
 
 </p>
 
-<p align="right">(<a href="#top">back to top</a>)</p> -->
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 ## Related Project
 
