@@ -2,25 +2,22 @@
 
 <!-- PROJECT LOGO -->
 <br />
-<div align="center">
+<div align="center" style="background-color: #f8f9fa; padding: 20px; border-radius: 15px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
   <a href="https://github.com/hasbialwikusmana/HireJob-Frontend">
-    <img src="https://github.com/user-attachments/assets/00895a1a-8b64-4694-9f3b-7df6bbc28ba1" alt="Logo" width="100%">
+    <img src="https://github.com/user-attachments/assets/00895a1a-8b64-4694-9f3b-7df6bbc28ba1" alt="Hire Job Logo" width="50%" style="border-radius: 10px; transition: transform 0.2s;">
   </a>
 
-  <h3 align="center">Hire Job</h3>
+  <h1 align="center" style="font-family: 'Arial', sans-serif; color: #343a40; margin-top: 20px; font-size: 2.5em;">
+    Hire Job
+  </h1>
 
-  <p align="center">
-    Find talented & best developers in various fields.
-    <br />
-    <a href="#table-of-contents"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://peworldapp.netlify.app/">View Demo</a>
-    ·
-    <a href="https://github.com/hasbialwikusmana/HireJob-Frontend/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/hasbialwikusmana/HireJob-Frontend/issues">Request Feature</a>
+  <p align="center" style="font-family: 'Arial', sans-serif; color: #6c757d; font-size: 1.2em; max-width: 600px; margin: 20px auto;">
+    Find talented & best developers in various fields. Whether you need a full-stack developer, a UI/UX designer, or a data scientist, we've got you covered.
   </p>
+
+  <a href="https://peworldapp.netlify.app/" style="display: inline-block; font-family: 'Arial', sans-serif; background-color: #007bff; color: #ffffff; padding: 10px 20px; border-radius: 5px; text-decoration: none; font-size: 1.2em; transition: background-color 0.3s;">
+    View Demo
+  </a>
 </div>
 
 <!-- TABLE OF CONTENTS -->
