@@ -90,9 +90,9 @@ VITE_API_URL = "" # Please fill with your API URL
 
 ## Screenshoots
 
-<p align="center" style="display: flex; flex-direction: column; align-items: center;">
+<p align="center" display=flex>
 
-<table width="100%" style="table-layout: auto;">
+<table>
   <!-- Row 1 -->
   <tr>
     <td width="50%">
