@@ -4,7 +4,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/hasbialwikusmana/HireJob-Frontend">
-    <img src="https://drive.usercontent.google.com/download?id=1056PBBbK1X4Z0txjdUVPndvCdiGFpkgB&authuser=0" alt="Logo" width="400px">
+    <img src="https://github.com/user-attachments/assets/00895a1a-8b64-4694-9f3b-7df6bbc28ba1" alt="Logo" width="400px">
   </a>
 
   <h3 align="center">Hire Job</h3>
@@ -85,7 +85,7 @@ npm install
 ```
 
 - <a href="#setup-env">Setup .env</a>
-- Type `npm run dev` to start development server. Open [http://localhost:5173/](http://localhost:5173/) with your browser to see the result.
+- Type `npm run dev` to start development server.<br> Open [http://localhost:5173/](http://localhost:5173/) with your browser to see the result.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
