@@ -90,76 +90,77 @@ VITE_API_URL = "" # Please fill with your API URL
 
 ## Screenshoots
 
-<p align="center" display=flex>
+<p align="center">
 
 <table>
  <tr>
-    <td><image src="https://github.com/user-attachments/assets/d9f859ce-e66c-46fb-ae4b-916b140ab14a" alt="Landing Page" width=100%></td>
-    <td><image src="https://github.com/user-attachments/assets/1d52a083-735f-488c-ac4d-0f6875a0dca4" alt="Landing Page After Login" width=100%/></td>
-  </tr>
-   <tr>
-    <td>Landing Page</td>
-    <td>Landing Page After Login</td>
-  </tr>
-
-  <tr>
-    <td><image src="https://github.com/user-attachments/assets/ddc3df80-d957-4c44-a5d0-279d1132cdc5" alt="Login Page" width=100%></td>
-  </tr>
-   <tr>
-    <td>Login Page</td>
-  </tr>
-
-  <tr>
-    <td><image src="https://github.com/user-attachments/assets/8e4ab868-dc2f-4db7-9b5c-26a731a616e5" alt="Register Worker Page" width=100%></td>
-    <td><image src="https://github.com/user-attachments/assets/25c133f7-0875-4c70-9d6d-0fd687e7acb6" alt="Register Recruiter Page" width=100%/></td>
-  </tr>
-   <tr>
-    <td>Register Worker Page</td>
-    <td>Register Recruiter Page</td>
-  </tr>
-
-  <tr>
-    <td><image src="https://github.com/user-attachments/assets/32190ae4-b3f4-4c78-a520-db77aa1a6ada" alt="List Worker Page" width=100%/></td>
+    <td align="center">
+      <b>Landing Page</b><br>
+      <img src="https://github.com/user-attachments/assets/d9f859ce-e66c-46fb-ae4b-916b140ab14a" alt="Landing Page" width="100%">
+    </td>
+    <td align="center">
+      <b>Landing Page After Login</b><br>
+      <img src="https://github.com/user-attachments/assets/1d52a083-735f-488c-ac4d-0f6875a0dca4" alt="Landing Page After Login" width="100%">
+    </td>
   </tr>
   <tr>
-    <td>List Worker Page</td>
-  </tr>
-
-  <tr>
-    <td><image src="https://github.com/user-attachments/assets/859bdd3a-61dc-4f19-8522-3e7e55c29ce4" alt="Profile Worker - Portofolio Page" width=100%/></td>
-    <td><image src="https://github.com/user-attachments/assets/0cdf432b-45ae-444c-a5ce-c778bafa3ac6" alt="Profile Worker - Experience Page" width=100%></td>
+    <td align="center">
+      <b>Login Page</b><br>
+      <img src="https://github.com/user-attachments/assets/ddc3df80-d957-4c44-a5d0-279d1132cdc5" alt="Login Page" width="100%">
+    </td>
   </tr>
   <tr>
-    <td>Profile Worker - Portofolio Page</td>
-    <td>Profile Worker - Experience Page</td>
-  </tr>
-
-  <tr>
-    <td><image src="https://github.com/user-attachments/assets/859bdd3a-61dc-4f19-8522-3e7e55c29ce4" alt="Detail Worker Page" width=100%/></td>
-    <td><image src="https://github.com/user-attachments/assets/e3f77206-9d61-4396-b6ea-ebed005b9e51" alt="Edit Profile Worker Page" width=100%></td>
-  </tr>
-  <tr>
-    <td>Detail Worker Page</td>
-    <td>Edit Profile Worker Page</td>
-  </tr>
-
-  <tr>
-    <td><image src="https://github.com/user-attachments/assets/d699dfc1-6b2e-43a1-b2d9-f9847a6f5d7d" alt="Profile Recruiter Page" width=100%/></td>
-
+    <td align="center">
+      <b>Register Worker Page</b><br>
+      <img src="https://github.com/user-attachments/assets/8e4ab868-dc2f-4db7-9b5c-26a731a616e5" alt="Register Worker Page" width="100%">
+    </td>
+    <td align="center">
+      <b>Register Recruiter Page</b><br>
+      <img src="https://github.com/user-attachments/assets/25c133f7-0875-4c70-9d6d-0fd687e7acb6" alt="Register Recruiter Page" width="100%">
+    </td>
   </tr>
   <tr>
-    <td>Profile Recruiter Page</td>
-  </tr>
-
-  <tr>
-    <td><image src="https://github.com/user-attachments/assets/73d2fc56-4ade-42ad-b30c-a6b7015b90b5" alt="Edit Profile Recruiter Page" width=100%/></td>
-    <td><image src="https://github.com/user-attachments/assets/3bd6804f-4b6b-4db4-85f2-e03c58ae3dfa" alt="Hire Page" width=100%></td>
+    <td align="center">
+      <b>List Worker Page</b><br>
+      <img src="https://github.com/user-attachments/assets/32190ae4-b3f4-4c78-a520-db77aa1a6ada" alt="List Worker Page" width="100%">
+    </td>
   </tr>
   <tr>
-    <td>Edit Profile Recruiter Page</td>
-    <td>Hire Page</td>
+    <td align="center">
+      <b>Profile Worker - Portfolio Page</b><br>
+      <img src="https://github.com/user-attachments/assets/859bdd3a-61dc-4f19-8522-3e7e55c29ce4" alt="Profile Worker - Portfolio Page" width="100%">
+    </td>
+    <td align="center">
+      <b>Profile Worker - Experience Page</b><br>
+      <img src="https://github.com/user-attachments/assets/0cdf432b-45ae-444c-a5ce-c778bafa3ac6" alt="Profile Worker - Experience Page" width="100%">
+    </td>
   </tr>
-
+  <tr>
+    <td align="center">
+      <b>Detail Worker Page</b><br>
+      <img src="https://github.com/user-attachments/assets/859bdd3a-61dc-4f19-8522-3e7e55c29ce4" alt="Detail Worker Page" width="100%">
+    </td>
+    <td align="center">
+      <b>Edit Profile Worker Page</b><br>
+      <img src="https://github.com/user-attachments/assets/e3f77206-9d61-4396-b6ea-ebed005b9e51" alt="Edit Profile Worker Page" width="100%">
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <b>Profile Recruiter Page</b><br>
+      <img src="https://github.com/user-attachments/assets/d699dfc1-6b2e-43a1-b2d9-f9847a6f5d7d" alt="Profile Recruiter Page" width="100%">
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <b>Edit Profile Recruiter Page</b><br>
+      <img src="https://github.com/user-attachments/assets/73d2fc56-4ade-42ad-b30c-a6b7015b90b5" alt="Edit Profile Recruiter Page" width="100%">
+    </td>
+    <td align="center">
+      <b>Hire Page</b><br>
+      <img src="https://github.com/user-attachments/assets/3bd6804f-4b6b-4db4-85f2-e03c58ae3dfa" alt="Hire Page" width="100%">
+    </td>
+  </tr>
 </table>
 
 </p>
