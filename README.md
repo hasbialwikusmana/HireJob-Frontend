@@ -155,19 +155,25 @@ VITE_API_URL = "" # Please fill with your API URL
     <td align="center" style="padding: 10px 0;"><strong>Profile Worker - Experience Page</strong></td>
   </tr>
 
-  <!-- Row 6 -->
-  <tr>
-    <td width="50%" style="vertical-align: top;">
-      <img src="https://github.com/user-attachments/assets/859bdd3a-61dc-4f19-8522-3e7e55c29ce4" alt="Detail Worker Page" width: 100%; height: auto;>
-    </td>
-    <td width="50%" style="vertical-align: top;">
-      <img src="https://github.com/user-attachments/assets/e3f77206-9d61-4396-b6ea-ebed005b9e51" alt="Edit Profile Worker Page" width: 100%; height: auto;>
-    </td>
-  </tr>
-  <tr>
-    <td align="center" style="padding: 10px 0;"><strong>Detail Worker Page</strong></td>
-    <td align="center" style="padding: 10px 0;"><strong>Edit Profile Worker Page</strong></td>
-  </tr>
+ <!-- Row 6 - Detail Worker Page -->
+<tr>
+  <td width="100%" style="vertical-align: top;">
+    <img src="https://github.com/user-attachments/assets/859bdd3a-61dc-4f19-8522-3e7e55c29ce4" alt="Detail Worker Page" style="width: 100%; height: auto;">
+  </td>
+</tr>
+<tr>
+  <td align="center" style="padding: 10px 0;"><strong>Detail Worker Page</strong></td>
+</tr>
+
+<!-- Row 7 - Edit Profile Worker Page -->
+<tr>
+  <td width="100%" style="vertical-align: top;">
+    <img src="https://github.com/user-attachments/assets/e3f77206-9d61-4396-b6ea-ebed005b9e51" alt="Edit Profile Worker Page" style="width: 100%; height: auto;">
+  </td>
+</tr>
+<tr>
+  <td align="center" style="padding: 10px 0;"><strong>Edit Profile Worker Page</strong></td>
+</tr>
 
   <!-- Row 7 -->
   <tr>
