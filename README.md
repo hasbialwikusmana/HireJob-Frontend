@@ -3,7 +3,8 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/user-attachments/assets/3abbb5ea-28c9-4325-9f34-d026a3dbe2bc" alt="Logo" width="100%">
+  <a href="https://github.com/hasbialwikusmana/HireJob-Frontend">
+    <img src="https://github.com/user-attachments/assets/3abbb5ea-28c9-4325-9f34-d026a3dbe2bc" alt="Logo" width="100%">
   </a>
 
   <h3 align="center">Hire Job</h3>
