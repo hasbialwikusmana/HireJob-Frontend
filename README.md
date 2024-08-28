@@ -83,7 +83,7 @@ npm install
 Create .env file in your root project folder.
 
 ```
-VITE_API_URL = "" # Please fill with your API URL
+VITE_API_URL = "YOUR_API_URL"
 ```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
