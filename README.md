@@ -96,10 +96,10 @@ VITE_API_URL = "YOUR_API_URL"
   <!-- Row 1 -->
   <tr>
     <td width="50%" style="vertical-align: top;">
-      <img src="https://github.com/user-attachments/assets/83a6f3cb-df37-42bc-9e32-1a1d94c54f51" alt="Landing Page" width="100%">
+      <img src="https://github.com/user-attachments/assets/1a611e4c-3d7d-41ef-99b4-93d1a20bd2fe" alt="Landing Page" width="100%">
     </td>
     <td width="50%" style="vertical-align: top;">
-      <img src="https://github.com/user-attachments/assets/3058610c-9a18-4cfa-9f7d-044216480665" alt="Landing Page After Login" width="100%">
+      <img src="https://github.com/user-attachments/assets/603bfadd-1c3e-4e3c-99e7-6d3339bd70b8" alt="Landing Page After Login" width="100%">
     </td>
   </tr>
   <tr>
@@ -110,7 +110,7 @@ VITE_API_URL = "YOUR_API_URL"
   <!-- Row 2 -->
   <tr>
     <td colspan="2">
-      <img src="https://github.com/user-attachments/assets/7e87012f-b3c6-4dd0-bd55-498173c1b2ea" alt="Login Page" width="100%">
+      <img src="https://github.com/user-attachments/assets/6e811894-03a2-4e1d-a874-04c6823915e8" alt="Login Page" width="100%">
     </td>
   </tr>
   <tr>
@@ -120,10 +120,10 @@ VITE_API_URL = "YOUR_API_URL"
   <!-- Row 3 -->
   <tr>
     <td width="50%" style="vertical-align: top;">
-      <img src="https://github.com/user-attachments/assets/e77e83c5-1640-4b0c-b0e3-a6ff2a81677a" alt="Register Worker Page" width="100%">
+      <img src="https://github.com/user-attachments/assets/cb849da7-0fb7-4cde-b047-48c89efe277c" alt="Register Worker Page" width="100%">
     </td>
     <td width="50%" style="vertical-align: top;">
-      <img src="https://github.com/user-attachments/assets/5b49bfbd-3b32-4cb0-ae8b-ad4372dd625f" alt="Register Recruiter Page" width="100%">
+      <img src="https://github.com/user-attachments/assets/baa1dbe6-df11-4c09-97b0-d0b709d41dbb" alt="Register Recruiter Page" width="100%">
     </td>
   </tr>
   <tr>
@@ -134,7 +134,7 @@ VITE_API_URL = "YOUR_API_URL"
   <!-- Row 4 -->
   <tr>
     <td colspan="2">
-      <img src="https://github.com/user-attachments/assets/883023f0-68ca-443d-99ec-0e6b65bc6800" alt="List Worker Page" width="100%">
+      <img src="https://github.com/user-attachments/assets/6ab1478b-7e4b-4fe9-97e4-9aaddffe52d5" alt="List Worker Page" width="100%">
     </td>
   </tr>
   <tr>
@@ -144,10 +144,10 @@ VITE_API_URL = "YOUR_API_URL"
   <!-- Row 5 -->
   <tr>
     <td width="50%" style="vertical-align: top;">
-      <img src="https://github.com/user-attachments/assets/b23ece6c-69f2-498e-8e50-e55ea02ffddb" alt="Profile Worker - Portfolio Page" width="100%">
+      <img src="https://github.com/user-attachments/assets/cb393e31-1367-4ed7-bc5f-6a814e9f62a6" alt="Profile Worker - Portfolio Page" width="100%">
     </td>
     <td width="50%" style="vertical-align: top;">
-      <img src="https://github.com/user-attachments/assets/e92cbec1-bb78-4a78-a6df-584074852f71" alt="Profile Worker - Experience Page" width="100%">
+      <img src="https://github.com/user-attachments/assets/fcec5a93-d5ba-4584-9ea4-dbf390c4ee79" alt="Profile Worker - Experience Page" width="100%">
     </td>
   </tr>
   <tr>
@@ -155,23 +155,23 @@ VITE_API_URL = "YOUR_API_URL"
     <td align="center" style="padding: 10px 0;"><strong>Profile Worker - Experience Page</strong></td>
   </tr>
 
-  <!-- Row 7 - Edit Profile Worker Page -->
+  <!-- Row 6 - Edit Profile Worker Page -->
   <tr>
     <td colspan="2">
-      <img src="https://github.com/user-attachments/assets/32190ae4-b3f4-4c78-a520-db77aa1a6ada" alt="Edit Profile Worker Page" width="100%">
+      <img src="https://github.com/user-attachments/assets/8e609f85-2d5e-4fd8-9af1-9eb658155043" alt="Edit Profile Worker Page" width="100%">
     </td>
   </tr>
   <tr>
     <td colspan="2" align="center" style="padding: 10px 0;"><strong>Edit Profile Worker Page</strong></td>
   </tr>
 
-  <!-- Row 8 -->
+  <!-- Row 7 -->
   <tr>
     <td width="50%" style="vertical-align: top;">
-      <img src="https://github.com/user-attachments/assets/ef564f22-0662-443e-b281-a50f77a67bbb" alt="Edit Profile Recruiter Page" width="100%">
+      <img src="https://github.com/user-attachments/assets/506e18c9-da8a-487b-9f01-f81ebbbfa328" alt="Edit Profile Recruiter Page" width="100%">
     </td>
     <td width="50%" style="vertical-align: top;">
-      <img src="https://github.com/user-attachments/assets/ade7a240-bb3a-429b-becc-4f455b30faa9" alt="Hire Page" width="100%">
+      <img src="https://github.com/user-attachments/assets/788196ed-9893-4422-a933-4594fc795e7f" alt="Hire Page" width="100%">
     </td>
   </tr>
   <tr>
@@ -179,25 +179,6 @@ VITE_API_URL = "YOUR_API_URL"
     <td align="center" style="padding: 10px 0;"><strong>Hire Page</strong></td>
   </tr>
 
-  <!-- Row 9 - Add Hire Page -->
-  <tr>
-    <td colspan="2">
-      <img src="https://github.com/user-attachments/assets/6856a30a-e0db-44f8-a7eb-08e3d822086f" alt="Add Hire Page" width="100%">
-    </td>
-  </tr>
-  <tr>
-    <td colspan="2" align="center" style="padding: 10px 0;"><strong>Add Hire Page</strong></td>
-  </tr>
-
-  <!-- Row 10 - Profile Recruiter Page -->
-  <tr>
-    <td colspan="2">
-      <img src="https://github.com/user-attachments/assets/272312b8-dbb8-4c63-8d03-ba484a9d142d" alt="Profile Recruiter Page" width="100%">
-    </td>
-  </tr>
-  <tr>
-    <td colspan="2" align="center" style="padding: 10px 0;"><strong>Profile Recruiter Page</strong></td>
-  </tr>
 </table>
 
 </p>
