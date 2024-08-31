@@ -242,7 +242,7 @@ VITE_API_URL = "YOUR_API_URL"
 
 :rocket: [`Frontend Hire Job`](https://github.com/hasbialwikusmana/HireJob-Frontend)
 
-:rocket: [`Web Service`](hire-job-backend-blue.vercel.app/)
+:rocket: [`Web Service`](https://hire-job-backend-rho.vercel.app/)
 
 :rocket: [`Demo Hire Job`](https://peworldapp.netlify.app/)
 
