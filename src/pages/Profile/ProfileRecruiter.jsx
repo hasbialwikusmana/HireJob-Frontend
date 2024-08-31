@@ -40,8 +40,7 @@ function ProfileRecruiter() {
                 <div className="flex flex-col justify-center items-center pb-10">
                   <img src={recruiterData.photo ? recruiterData.photo : ProfileImage} alt="Foto Profil" className="rounded-full mt-6 w-36 h-36 object-cover" />
                   <div className="desc mt-8 w-full pl-4 text-center">
-                    <h1 className="text-2xl font-semibold mb-2">{recruiterData.name}</h1>
-                    <p className="text-[#1F2A36] mb-2 text-[15px]">{recruiterData.company ? recruiterData.company : "-"}</p>
+                    <h1 className="text-2xl font-semibold mb-2">{recruiterData.company}</h1>
 
                     <div className="location flex gap-3 mb-2 justify-center">
                       {recruiterData.city && (

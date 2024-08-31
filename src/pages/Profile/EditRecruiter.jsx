@@ -1,6 +1,5 @@
 import { FaMapMarkerAlt, FaPencilAlt } from "react-icons/fa";
 import ProfileImage from "../../assets/img/profile/user.png";
-import { Link } from "react-router-dom";
 import NavbarUtama from "../../components/Navbar/NavbarUtama";
 import Footer from "../../components/Footer";
 import { useEffect, useState } from "react";
@@ -174,9 +173,7 @@ function EditRecruiter() {
                           Simpan
                         </button>
 
-                        <Link to="/profile">
-                          <button className="w-full bg-white text-primary border-2 border-primary font-bold hover:bg-hoverPrimary hover:text-white p-3 rounded-md mt-3">Batal</button>
-                        </Link>
+                        <button className="w-full bg-white text-primary border-2 border-primary font-bold hover:bg-hoverPrimary hover:text-white p-3 rounded-md mt-3">Batal</button>
                       </div>
                     </div>
                   </div>
