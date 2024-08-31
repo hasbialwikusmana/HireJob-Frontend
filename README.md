@@ -24,6 +24,35 @@
 
 This application is developed individually by Hasbi using React.js, Express.js, and PostgreSQL technologies.
 
+## Features
+
+1. **User Authentication**
+
+   - **Login & Registration**: Users can register as workers or recruiters and log in to the application.
+
+2. **Profile Management**
+
+   - **Edit Profile**: Users can edit their profiles, including updating personal information, profile photos, and other details.
+   - **Manage Skills**: Workers can add, edit, or delete their skills.
+   - **Portfolio & Experience**: Workers can add project portfolios and work experience to their profiles.
+
+3. **Job Seeker Features**
+
+   - **Job Search**: Search for jobs based on skills and other criteria.
+   - **Job Application**: Apply for available jobs.
+   - **Save Job Listings**: Save interesting job listings for future reference.
+
+4. **Recruiter Features**
+
+   - **Search Candidates**: Recruiters can search for candidates based on skills and experience.
+   - **View Candidate Profiles**: View complete worker profiles, including portfolios and work experience.
+   - **Hire Candidates**: Contact suitable candidates to offer job opportunities.
+
+5. **Responsive Design**
+   - **Mobile & Desktop Support**: The application is designed to be responsive and comfortably usable on both mobile and desktop devices.
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
 ### Built With
 
 This app was built with some technologies below:
@@ -144,17 +173,30 @@ VITE_API_URL = "YOUR_API_URL"
   <!-- Row 5 -->
   <tr>
     <td width="50%" style="vertical-align: top;">
-      <img src="https://github.com/user-attachments/assets/cb393e31-1367-4ed7-bc5f-6a814e9f62a6" alt="Profile Worker - Portfolio Page" width="100%">
+      <img src="https://github.com/user-attachments/assets/cb393e31-1367-4ed7-bc5f-6a814e9f62a6" alt="Profile Worker" width="100%">
     </td>
     <td width="50%" style="vertical-align: top;">
-      <img src="https://github.com/user-attachments/assets/fcec5a93-d5ba-4584-9ea4-dbf390c4ee79" alt="Profile Worker - Experience Page" width="100%">
+      <img src="https://github.com/user-attachments/assets/2d67d13f-4034-470a-9ac6-2be8dd4d0b69" alt="Profile Recruiter" width="100%">
     </td>
   </tr>
   <tr>
-    <td align="center" style="padding: 10px 0;"><strong>Profile Worker - Portfolio Page</strong></td>
-    <td align="center" style="padding: 10px 0;"><strong>Profile Worker - Experience Page</strong></td>
+    <td align="center" style="padding: 10px 0;"><strong>Profile Worker</strong></td>
+    <td align="center" style="padding: 10px 0;"><strong>Profile Recruiter</strong></td>
   </tr>
 
+ <!-- Row 5 -->
+  <tr>
+    <td width="50%" style="vertical-align: top;">
+      <img src="https://github.com/user-attachments/assets/6f81b6c5-b52d-4ed2-a8ce-149c8898b596" alt="Portfolio Page" width="100%">
+    </td>
+    <td width="50%" style="vertical-align: top;">
+      <img src="https://github.com/user-attachments/assets/fcec5a93-d5ba-4584-9ea4-dbf390c4ee79" alt="Experience Page" width="100%">
+    </td>
+  </tr>
+  <tr>
+    <td align="center" style="padding: 10px 0;"><strong>Portfolio Page</strong></td>
+    <td align="center" style="padding: 10px 0;"><strong>Experience Page</strong></td>
+  </tr>
   <!-- Row 6 - Edit Profile Worker Page -->
   <tr>
     <td colspan="2">
@@ -179,6 +221,15 @@ VITE_API_URL = "YOUR_API_URL"
     <td align="center" style="padding: 10px 0;"><strong>Hire Page</strong></td>
   </tr>
 
+   <tr>
+    <td colspan="2">
+      <img src="https://github.com/user-attachments/assets/f2450774-8fc0-4940-8711-16fdb2a4925c" alt="Halaman Hire" width="100%">
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center" style="padding: 10px 0;"><strong>Halaman Hire</strong></td>
+  </tr>
+
 </table>
 
 </p>
@@ -199,7 +250,7 @@ VITE_API_URL = "YOUR_API_URL"
 
 ## Contact
 
-My Email : hasbialwi70@gmail.com
+My Email : [mailto:hasbialwi70@gmail.com](mailto:hasbialwi70@gmail.com)
 
 Project Link: [https://github.com/hasbialwikusmana/HireJob-Frontend](https://github.com/hasbialwikusmana/HireJob-Frontend)
 
