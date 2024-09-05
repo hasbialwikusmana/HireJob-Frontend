@@ -223,7 +223,7 @@ VITE_API_URL = "YOUR_API_URL"
 
    <tr>
     <td colspan="2">
-      <img src="https://github.com/user-attachments/assets/62591048-9be7-4dad-85f3-f4bd5d12a068" alt="Hire Message" width="100%">
+      <img src="https://github.com/user-attachments/assets/05922256-bbac-41bb-ad38-9539d0fe0344" alt="Hire Message" width="100%">
     </td>
   </tr>
   <tr>
