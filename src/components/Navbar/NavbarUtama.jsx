@@ -101,10 +101,11 @@ function NavbarUtama() {
           <div className="hidden md:flex gap-5 items-center">
             {isLoggedIn && (
               <>
+                <FaBell className="text-neutral-400 text-2xl cursor-pointer" />
+
                 <Link to={hire()}>
-                  <FaBell className="text-neutral-400 text-2xl cursor-pointer" />
+                  <FaEnvelope className="text-neutral-400 text-2xl cursor-pointer" />
                 </Link>
-                <FaEnvelope className="text-neutral-400 text-2xl cursor-pointer" />
                 <div onClick={openDropdown} className="relative z-20">
                   <img src={profilePhoto ? profilePhoto : ProfileImage} width={30} height={30} className="rounded-full cursor-pointer" alt="Profile" />
                   {isDropdownOpen && (
