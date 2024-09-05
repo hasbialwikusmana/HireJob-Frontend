@@ -128,7 +128,8 @@ function Hire() {
                       <h1 className="text-3xl mb-4">Hubungi {workerData?.name}</h1>
                       {/* description */}
                       <div className="desc-profile text-[14px] mt-2 text-gray-600 leading-relaxed">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum erat orci, mollis nec gravida sed, ornare quis urna. Curabitur eu lacus fringilla, vestibulum risus at.
+                        Jika Anda tertarik untuk bekerja sama atau memiliki pertanyaan mengenai layanan saya, silakan hubungi saya menggunakan formulir di bawah ini. Saya siap untuk membantu Anda dengan berbagai kebutuhan pengembangan web,
+                        desain grafis, dan dukungan teknis. Jangan ragu untuk menjelaskan detail proyek atau pertanyaan Anda secara menyeluruh.
                       </div>
                     </div>
                     <form className="form-edit-profile mt-8">
