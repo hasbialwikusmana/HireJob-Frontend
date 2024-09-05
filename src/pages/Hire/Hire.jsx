@@ -127,10 +127,8 @@ function Hire() {
                     <div className="hadline">
                       <h1 className="text-3xl mb-4">Hubungi {workerData?.name}</h1>
                       {/* description */}
-                      <div className="desc-profile text-sm mt-4 text-gray-700 leading-relaxed">
-  Jika Anda tertarik bekerja sama atau memiliki pertanyaan tentang layanan saya, silakan gunakan formulir di bawah ini.
-</div>
-
+                      <div className="desc-profile text-sm mt-4 text-gray-700 leading-relaxed">Jika Anda tertarik bekerja sama atau memiliki pertanyaan tentang layanan saya, silakan gunakan formulir di bawah ini.</div>
+                    </div>
                     <form className="form-edit-profile mt-8">
                       {/* tujuan pesan ini select option */}
                       <div className="mb-4">
